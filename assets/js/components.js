@@ -662,6 +662,142 @@ const COMPONENTS = [
   </div>
 </section>`,
       },
+      {
+        id: 'section-counters',
+        label: 'Contadores',
+        icon: 'bi-hash',
+        isPrebuilt: true,
+        template: `<section class="py-5 bg-dark text-white" style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);">
+  <div class="container">
+    <div class="row g-4 text-center">
+      <div class="col-6 col-md-3">
+        <div class="p-3">
+          <i class="bi bi-check-circle display-5 text-primary mb-3 d-block"></i>
+          <h3 class="display-5 fw-bold mb-1">150+</h3>
+          <p class="text-white-50 small mb-0 fw-semibold">Proyectos Completados</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="p-3">
+          <i class="bi bi-people display-5 text-success mb-3 d-block"></i>
+          <h3 class="display-5 fw-bold mb-1">1,200+</h3>
+          <p class="text-white-50 small mb-0 fw-semibold">Clientes Felices</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="p-3">
+          <i class="bi bi-headset display-5 text-warning mb-3 d-block"></i>
+          <h3 class="display-5 fw-bold mb-1">24/7</h3>
+          <p class="text-white-50 small mb-0 fw-semibold">Soporte Activo</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="p-3">
+          <i class="bi bi-trophy display-5 text-danger mb-3 d-block"></i>
+          <h3 class="display-5 fw-bold mb-1">15+</h3>
+          <p class="text-white-50 small mb-0 fw-semibold">Premios Ganados</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>`,
+      },
+      {
+        id: 'section-products-list',
+        label: 'Lista Prod',
+        icon: 'bi-grid-fill',
+        isPrebuilt: true,
+        template: `<section class="py-5 bg-white">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="badge bg-primary bg-opacity-10 text-primary mb-2 px-3 py-2 rounded-pill fw-semibold text-uppercase" style="font-size: 0.75rem; letter-spacing: 0.5px;">Colección</span>
+      <h2 class="display-5 fw-bold text-dark">Productos Destacados</h2>
+    </div>
+    <div class="row g-4 justify-content-center">
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card h-100 border-0 shadow-sm overflow-hidden" style="transition: transform .2s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
+          <div class="bg-light text-center p-4">
+            <img src="https://picsum.photos/400/400?random=11" class="img-fluid rounded object-fit-cover" style="height: 180px;" alt="Reloj Inteligente">
+          </div>
+          <div class="card-body d-flex flex-column">
+            <span class="text-muted small mb-1 d-block">Wearables</span>
+            <h5 class="card-title fw-bold text-dark mb-2">Reloj Inteligente V2</h5>
+            <div class="mt-auto pt-2">
+              <div class="d-flex align-items-baseline gap-2 mb-3">
+                <span class="fs-5 fw-bold text-dark">$99.99</span>
+                <span class="text-muted text-decoration-line-through small">$129.99</span>
+              </div>
+              <button class="btn btn-primary w-100 fw-semibold d-flex align-items-center justify-content-center gap-2">
+                <i class="bi bi-cart-plus-fill"></i> Agregar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card h-100 border-0 shadow-sm overflow-hidden" style="transition: transform .2s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
+          <div class="bg-light text-center p-4">
+            <img src="https://picsum.photos/400/400?random=12" class="img-fluid rounded object-fit-cover" style="height: 180px;" alt="Cargador Inalámbrico">
+          </div>
+          <div class="card-body d-flex flex-column">
+            <span class="text-muted small mb-1 d-block">Accesorios</span>
+            <h5 class="card-title fw-bold text-dark mb-2">Cargador Inalámbrico</h5>
+            <div class="mt-auto pt-2">
+              <div class="d-flex align-items-baseline gap-2 mb-3">
+                <span class="fs-5 fw-bold text-dark">$29.99</span>
+                <span class="text-muted text-decoration-line-through small">$39.99</span>
+              </div>
+              <button class="btn btn-primary w-100 fw-semibold d-flex align-items-center justify-content-center gap-2">
+                <i class="bi bi-cart-plus-fill"></i> Agregar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card h-100 border-0 shadow-sm overflow-hidden" style="transition: transform .2s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
+          <div class="bg-light text-center p-4">
+            <img src="https://picsum.photos/400/400?random=13" class="img-fluid rounded object-fit-cover" style="height: 180px;" alt="Mochila Ergonómica">
+          </div>
+          <div class="card-body d-flex flex-column">
+            <span class="text-muted small mb-1 d-block">Viaje</span>
+            <h5 class="card-title fw-bold text-dark mb-2">Mochila Ergonómica</h5>
+            <div class="mt-auto pt-2">
+              <div class="d-flex align-items-baseline gap-2 mb-3">
+                <span class="fs-5 fw-bold text-dark">$59.99</span>
+                <span class="text-muted text-decoration-line-through small">$79.99</span>
+              </div>
+              <button class="btn btn-primary w-100 fw-semibold d-flex align-items-center justify-content-center gap-2">
+                <i class="bi bi-cart-plus-fill"></i> Agregar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card h-100 border-0 shadow-sm overflow-hidden" style="transition: transform .2s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
+          <div class="bg-light text-center p-4">
+            <img src="https://picsum.photos/400/400?random=14" class="img-fluid rounded object-fit-cover" style="height: 180px;" alt="Teclado Mecánico">
+          </div>
+          <div class="card-body d-flex flex-column">
+            <span class="text-muted small mb-1 d-block">Oficina</span>
+            <h5 class="card-title fw-bold text-dark mb-2">Teclado Mecánico RGB</h5>
+            <div class="mt-auto pt-2">
+              <div class="d-flex align-items-baseline gap-2 mb-3">
+                <span class="fs-5 fw-bold text-dark">$89.99</span>
+                <span class="text-muted text-decoration-line-through small">$109.99</span>
+              </div>
+              <button class="btn btn-primary w-100 fw-semibold d-flex align-items-center justify-content-center gap-2">
+                <i class="bi bi-cart-plus-fill"></i> Agregar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>`,
+      },
     ]
   },
   {
