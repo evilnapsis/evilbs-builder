@@ -548,6 +548,120 @@ const COMPONENTS = [
   </div>
 </section>`,
       },
+      {
+        id: 'product-single',
+        label: 'Producto',
+        icon: 'bi-bag-plus',
+        isPrebuilt: true,
+        template: `<section class="py-5 bg-white">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-12 col-lg-6">
+        <div class="position-relative overflow-hidden rounded-4 shadow-sm bg-light text-center p-4">
+          <img src="https://picsum.photos/600/600?random=88" class="img-fluid rounded-3 object-fit-cover" alt="Producto Premium" style="max-height: 450px;">
+        </div>
+      </div>
+      <div class="col-12 col-lg-6">
+        <div class="ps-lg-3">
+          <span class="badge bg-primary bg-opacity-10 text-primary mb-2 px-3 py-2 rounded-pill fw-semibold text-uppercase" style="font-size: 0.75rem; letter-spacing: 0.5px;">Destacado</span>
+          <h2 class="display-6 fw-bold mb-3 text-dark">Audífonos Inalámbricos Pro</h2>
+          <div class="d-flex align-items-center gap-2 mb-3">
+            <div class="text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+            </div>
+            <span class="text-muted small">(4.7 estrellas · 98 opiniones)</span>
+          </div>
+          <div class="d-flex align-items-baseline gap-3 mb-4">
+            <span class="fs-2 fw-bold text-dark">$119.99</span>
+            <span class="text-muted text-decoration-line-through fs-5">$149.99</span>
+          </div>
+          <p class="text-muted mb-4 lead">Experimenta un sonido de alta fidelidad con cancelación activa de ruido, batería de hasta 40 horas de duración y almohadillas ergonómicas ultra suaves para máxima comodidad durante todo el día.</p>
+          
+          <div class="d-flex flex-wrap gap-3 align-items-center pt-2 mb-4">
+            <div class="input-group" style="width: 120px;">
+              <button class="btn btn-outline-secondary" type="button" onclick="var el = this.nextElementSibling; var v = parseInt(el.value); if(v > 1) el.value = v - 1;">-</button>
+              <input type="number" class="form-control text-center fw-semibold" value="1" min="1" readonly style="background-color: transparent;">
+              <button class="btn btn-outline-secondary" type="button" onclick="var el = this.previousElementSibling; var v = parseInt(el.value); el.value = v + 1;">+</button>
+            </div>
+            <button class="btn btn-primary btn-lg px-4 py-2 fw-semibold d-flex align-items-center gap-2 shadow-sm">
+              <i class="bi bi-cart-plus-fill"></i> Agregar al carrito
+            </button>
+          </div>
+          
+          <hr class="my-4 border-light-subtle">
+          <div class="row g-2">
+            <div class="col-6 col-sm-4">
+              <div class="d-flex align-items-center gap-2 text-muted small">
+                <i class="bi bi-truck text-primary fs-5"></i> Envío Gratis
+              </div>
+            </div>
+            <div class="col-6 col-sm-4">
+              <div class="d-flex align-items-center gap-2 text-muted small">
+                <i class="bi bi-shield-check text-success fs-5"></i> Garantía 1 año
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 mt-2 mt-sm-0">
+              <div class="d-flex align-items-center gap-2 text-muted small">
+                <i class="bi bi-arrow-left-right text-info fs-5"></i> Devoluciones 30d
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>`,
+      },
+      {
+        id: 'section-img-left',
+        label: 'Imagen Izq',
+        icon: 'bi-layout-sidebar',
+        isPrebuilt: true,
+        template: `<section class="py-5 bg-white">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-12 col-lg-6">
+        <img src="https://picsum.photos/600/400?random=1" class="img-fluid rounded-4 shadow-sm w-100 object-fit-cover" alt="Imagen descriptiva">
+      </div>
+      <div class="col-12 col-lg-6">
+        <div class="ps-lg-3">
+          <h2 class="display-5 fw-bold mb-3 text-dark">Diseño Moderno e Intuitivo</h2>
+          <p class="lead text-muted mb-4">Descubre cómo nuestra plataforma puede ayudarte a optimizar tus flujos de trabajo de forma rápida y sencilla.</p>
+          <p class="text-muted mb-4">Con herramientas avanzadas y una interfaz diseñada para la productividad, puedes enfocarte en lo que realmente importa para hacer crecer tu negocio.</p>
+          <a href="#" class="btn btn-primary btn-lg px-4">Comenzar ahora</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>`,
+      },
+      {
+        id: 'section-img-right',
+        label: 'Imagen Der',
+        icon: 'bi-layout-sidebar-reverse',
+        isPrebuilt: true,
+        template: `<section class="py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-12 col-lg-6 order-2 order-lg-1">
+        <div class="pe-lg-3">
+          <h2 class="display-5 fw-bold mb-3 text-dark">Impulsa tu Productividad</h2>
+          <p class="lead text-muted mb-4">Todo lo que necesitas en una sola plataforma diseñada para equipos de alto rendimiento.</p>
+          <p class="text-muted mb-4">Gestiona tareas, colabora en tiempo real y obtén reportes detallados del avance de todos tus proyectos sin esfuerzo.</p>
+          <a href="#" class="btn btn-outline-primary btn-lg px-4">Saber más</a>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 order-1 order-lg-2">
+        <img src="https://picsum.photos/600/400?random=2" class="img-fluid rounded-4 shadow-sm w-100 object-fit-cover" alt="Imagen descriptiva">
+      </div>
+    </div>
+  </div>
+</section>`,
+      },
     ]
   },
   {
